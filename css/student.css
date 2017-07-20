@@ -1,0 +1,43 @@
+body{
+  background: #4CD;
+  color: #FFF;
+}
+
+table{
+	background-color: #45AFD3;
+		border: 0;
+}
+
+tr{
+	background: #CCF;
+
+}
+th{
+	background: #DD4565;
+}
+td{
+	background-color: #AAA;
+}
+#submit,#submit2{
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+  a{
+  	text-decoration: none;
+  }
+  a:hover{
+  	color: #CFC;
+  }
+  p{
+    text-align: center;
+    width: 90%;
+    background-color: #FFF;
+    color: #00C;
+    margin-left: 65px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    font-weight: bold;
+    font-size: 40px;
+     }
