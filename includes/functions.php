@@ -46,7 +46,15 @@ function get_checkbox_list($table,$col_id,$col_value,$name,$sel=0)
      return $optionlist;
 }
 
+## get value for show student details
+function get_value($table,$col_id,$col_value,$id_value){
 
+global $con;
+   $query="SELECT $col_value from $table where $col_id=$id_value";
+   $rs=mysqli_query($con,$query);
+   $data=mysqli_fetch_assoc($rs);
+   return $data[$col_value];
+}
 
 
   ?>

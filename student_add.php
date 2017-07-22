@@ -62,8 +62,8 @@ if ($_REQUEST[st_id])
 			</tr>
 			<tr>
 				<th>Gender</th>
-				<td><input type="radio" name="st_gender" id="st_gender" value="male" <?php if ($data[st_gender]== "male") { echo "checked";	}?> >Male
-				<input type="radio"id="st_gender" name="st_gender" value="female" <?php if ($data[st_gender]== "female") { echo "checked";	}?>>Female
+				<td><input type="radio" name="st_gender" id="st_gender" value="Male" <?php if ($data[st_gender]== "male") { echo "checked";	}?> >Male
+				<input type="radio"id="st_gender" name="st_gender" value="Female" <?php if ($data[st_gender]== "female") { echo "checked";	}?>>Female
 			</td>
 			<th>Qualification</th>
 			<td> <div style="height:30; overflow:scroll;">
